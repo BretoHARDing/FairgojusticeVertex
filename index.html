@@ -1,100 +1,308 @@
-     1	<!DOCTYPE html>
-     2	<html lang="en-AU">
-     3	<head>
-     4	  <meta charset="UTF-8">
-     5	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     6	  <meta name="description" content="Fair Go Justice Movement - Fighting for a justice system that works for all Australians, not just those who can afford it. Join the movement, take the quiz, sign the petition.">
-     7	  <meta name="keywords" content="justice reform, Australian legal system, fair go, judicial integrity, petition, legal rights">
-     8	  <meta name="author" content="Fair Go Justice Movement">
-     9	  
-    10	  <!-- Open Graph / Social Media -->
-    11	  <meta property="og:type" content="website">
-    12	  <meta property="og:url" content="https://fairgojustice.com.au/">
-    13	  <meta property="og:title" content="Fair Go Justice Movement - Justice For All Australians">
-    14	  <meta property="og:description" content="A fair go means a fair justice system. Join thousands demanding real change.">
-    15	  <meta property="og:image" content="https://fairgojustice.com.au/images/social-share.jpg">
-    16	  
-    17	  <!-- Twitter -->
-    18	  <meta property="twitter:card" content="summary_large_image">
-    19	  <meta property="twitter:url" content="https://fairgojustice.com.au/">
-    20	  <meta property="twitter:title" content="Fair Go Justice Movement - Justice For All Australians">
-    21	  <meta property="twitter:description" content="A fair go means a fair justice system. Join thousands demanding real change.">
-    22	  <meta property="twitter:image" content="https://fairgojustice.com.au/images/social-share.jpg">
-    23	  
-    24	  <title>Fair Go Justice - Justice For All Australians</title>
-    25	  
-    26	  <!-- Fonts -->
-    27	  <link rel="preconnect" href="https://fonts.googleapis.com">
-    28	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    29	  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    30	  
-    31	  <!-- Font Awesome -->
-    32	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    33	  
-    34	  <!-- Stylesheet -->
-    35	  <link rel="stylesheet" href="css/main.css">
-    36	  
-    37	  <!-- Favicon -->
-    38	  <link rel="icon" type="image/png" href="images/favicon.png">
-    39	</head>
-    40	<body>
-    41	  
-    42	  <!-- Header -->
-    43	  <header class="site-header">
-    44	    <div class="header-top">
-    45	      <div class="container">
-    46	        <p><strong>🇦🇺 A Fair Go Means A Fair Justice System</strong> | Join 12,847 Australians Demanding Change</p>
-    47	      </div>
-    48	    </div>
-    49	    
-    50	    <div class="header-main">
-    51	      <div class="container">
-    52	        <div class="header-content">
-    53	          <a href="index.html" class="logo">
-    54	            <i class="fas fa-balance-scale"></i>
-    55	            <span>Fair Go Justice</span>
-    56	          </a>
-    57	          
-    58	          <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
-    59	            <i class="fas fa-bars"></i>
-    60	          </button>
-    61	          
-    62	          <nav class="main-nav" id="mainNav">
-    63	            <ul>
-    64	              <li><a href="index.html">Home</a></li>
-    65	              <li class="dropdown">
-    66	                <a href="#" class="dropdown-toggle">Reform Framework <i class="fas fa-chevron-down"></i></a>
-    67	                <ul class="dropdown-menu">
-    68	                  <li><a href="pillars.html">The 3 Pillars</a></li>
-    69	                  <li><a href="parliament.html">Parliamentary Inquiry</a></li>
-    70	                  <li><a href="metadata.html">Metadata Mandate</a></li>
-    71	                </ul>
-    72	              </li>
-    73	              <li class="dropdown">
-    74	                <a href="#" class="dropdown-toggle">Take Action <i class="fas fa-chevron-down"></i></a>
-    75	                <ul class="dropdown-menu">
-    76	                  <li><a href="petition.html">Sign Petition</a></li>
-    77	                  <li><a href="stories.html">Share Your Story</a></li>
-    78	                  <li><a href="contact.html">Contact Your MP</a></li>
-    79	                </ul>
-    80	              </li>
-    81	              <li class="dropdown">
-    82	                <a href="#" class="dropdown-toggle">Quizzes <i class="fas fa-chevron-down"></i></a>
-    83	                <ul class="dropdown-menu">
-    84	                  <li><a href="quiz-quick.html">Quick Quiz (2 min)</a></li>
-    85	                  <li><a href="quiz.html">Full Assessment (5 min)</a></li>
-    86	                </ul>
-    87	              </li>
-    88	              <li class="dropdown">
-    89	                <a href="#" class="dropdown-toggle">Resources <i class="fas fa-chevron-down"></i></a>
-    90	                <ul class="dropdown-menu">
-    91	                  <li><a href="website/podcast.html">Podcast</a></li>
-    92	                  <li><a href="social-media-kit.html">Social Media Kit</a></li>
-    93	                  <li><a href="graphics-guide.html">Graphics Guide</a></li>
-    94	                  <li><a href="resources.html">All Resources</a></li>
-    95	                </ul>
-    96	              </li>
-    97	              <li><a href="about.html">About</a></li>
-    98	              <li><a href="petition.html" class="btn-cta">Get Involved</a></li>
-    99	            </ul>
-   100	          </nav>
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fair Go Justice Movement - Fighting for a justice system that works for all Australians, not just those who can afford it. Join the movement, take the quiz, sign the petition.">
+  <meta name="keywords" content="justice reform, Australian legal system, fair go, judicial integrity, petition, legal rights">
+  <meta name="author" content="Fair Go Justice Movement">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fairgojustice.com.au/">
+  <meta property="og:title" content="Fair Go Justice Movement - Justice For All Australians">
+  <meta property="og:description" content="A fair go means a fair justice system. Join thousands demanding real change.">
+  <meta property="og:image" content="https://fairgojustice.com.au/images/social-share.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://fairgojustice.com.au/">
+  <meta property="twitter:title" content="Fair Go Justice Movement - Justice For All Australians">
+  <meta property="twitter:description" content="A fair go means a fair justice system. Join thousands demanding real change.">
+  <meta property="twitter:image" content="https://fairgojustice.com.au/images/social-share.jpg">
+  
+  <title>Fair Go Justice - Justice For All Australians</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRTFE1VZYP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-DRTFE1VZYP');
+  </script>
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="container">
+        <p><strong>🇦🇺 A Fair Go Means A Fair Justice System</strong> | Join 12,847 Australians Demanding Change</p>
+      </div>
+    </div>
+    
+    <div class="header-main">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">
+            <i class="fas fa-balance-scale"></i>
+            <span>Fair Go Justice</span>
+          </a>
+          
+          <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          
+          <nav class="main-nav" id="mainNav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Reform Framework <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="pillars.html">The 3 Pillars</a></li>
+                  <li><a href="parliament.html">Parliamentary Inquiry</a></li>
+                  <li><a href="metadata.html">Metadata Mandate</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Take Action <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="petition.html">Sign Petition</a></li>
+                  <li><a href="stories.html">Share Your Story</a></li>
+                  <li><a href="contact.html">Contact Your MP</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Quizzes <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="quiz-quick.html">Quick Quiz (2 min)</a></li>
+                  <li><a href="quiz.html">Full Assessment (5 min)</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Resources <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="website/podcast.html">Podcast</a></li>
+                  <li><a href="social-media-kit.html">Social Media Kit</a></li>
+                  <li><a href="graphics-guide.html">Graphics Guide</a></li>
+                  <li><a href="resources.html">All Resources</a></li>
+                </ul>
+              </li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="petition.html" class="btn-cta">Get Involved</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Justice For All. Not Just Those Who Can Afford It.</h1>
+        <p class="hero-subtitle">Thousands of Australians are being failed by a broken justice system. Evidence goes missing. Documents get backdated. The truth gets buried. But when people stand together, systems must change.</p>
+        <div class="hero-cta">
+          <a href="petition.html" class="btn btn-primary btn-large">Sign the Petition</a>
+          <a href="quiz.html" class="btn btn-secondary btn-large">Take the Quiz</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">850,000</div>
+          <div class="stat-label">Australians Can't Afford Legal Representation</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">12,847</div>
+          <div class="stat-label">Have Signed Our Petition</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100,000</div>
+          <div class="stat-label">Signatures Needed for Royal Commission</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Main Content Section -->
+  <section class="content-section">
+    <div class="container">
+      <div class="content-intro">
+        <h2>Everyone Deserves A Fair Go — Even When The System Says Otherwise</h2>
+        <p class="lead">Australia's justice system is meant to protect all of us. But for hundreds of thousands of everyday Australians, that promise has been broken.</p>
+      </div>
+      
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-gavel"></i>
+          </div>
+          <h3>The Problem</h3>
+          <p>If you can't afford a $45,000 retainer, you're left to navigate a complex legal system alone. Evidence mysteriously "disappears." Court documents get backdated. Justice becomes a luxury good.</p>
+          <a href="about.html" class="card-link">Learn More →</a>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>The Movement</h3>
+          <p>We're building a nationwide coalition demanding systemic reform. From students to retirees, workers to professionals — thousands are standing together for accountability.</p>
+          <a href="about.html#movement" class="card-link">Join Us →</a>
+        </div>
+        
+        <div class="card">
+          <div class="card-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>The Solution</h3>
+          <p>Three evidence-based reforms: A National Judicial Integrity Commission, expanded legal aid access, and mandatory evidence integrity protocols.</p>
+          <a href="pillars.html" class="card-link">Our Framework →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Call to Action Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>We Don't Bow. We Don't Break. We Stand Together.</h2>
+        <p>A Royal Commission requires 100,000 signatures. We're already 12,847 strong. Will you be next?</p>
+        <div class="cta-buttons">
+          <a href="petition.html" class="btn btn-primary btn-large">Sign the Petition</a>
+          <a href="stories.html" class="btn btn-outline btn-large">Share Your Story</a>
+        </div>
+      </div>
+      
+      <div class="petition-progress">
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 12.8%"></div>
+        </div>
+        <p class="progress-text">12.8% to 100,000 signatures</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="section-title">Take Action Today</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-file-signature"></i>
+          </div>
+          <h3>Sign the Petition</h3>
+          <p>Demand a Royal Commission into judicial integrity and systemic failures in Australia's justice system.</p>
+          <a href="petition-royal-commission.html" class="btn btn-secondary">Sign Now</a>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3>Take the Quiz</h3>
+          <p>Discover how broken the system really is. 10 questions on systemic failure patterns and institutional pressure.</p>
+          <a href="quiz-systemic.html" class="btn btn-secondary">Start Quiz</a>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h3>Read the Case Study</h3>
+          <p>Michael's story: How a $2.8M fraud spiraled into a decade-long nightmare. Evidence missing. Justice denied.</p>
+          <a href="case-study.html" class="btn btn-secondary">Read Story</a>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <h3>Spread the Word</h3>
+          <p>Download our complete Social Media Launch Kit with ready-to-use content, graphics, and hashtags.</p>
+          <a href="social-media-kit.html" class="btn btn-secondary">Get Kit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Take Action</h4>
+          <ul>
+            <li><a href="quiz.html">Justice Quiz</a></li>
+            <li><a href="petition.html">Sign the Petition</a></li>
+            <li><a href="stories.html">Share Your Story</a></li>
+            <li><a href="contact.html">Contact Your MP</a></li>
+            <li><a href="#">Volunteer</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Reform Framework</h4>
+          <ul>
+            <li><a href="pillars.html">The 3 Pillars</a></li>
+            <li><a href="parliament.html">Parliamentary Inquiry</a></li>
+            <li><a href="metadata.html">Metadata Mandate</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Learn More</h4>
+          <ul>
+            <li><a href="website/podcast.html">Podcast Series</a></li>
+            <li><a href="resources.html">Campaign Resources</a></li>
+            <li><a href="rights.html">Know Your Rights</a></li>
+            <li><a href="about.html">About the Movement</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@fairgojustice.com.au">info@fairgojustice.com.au</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Fair Go Justice Movement. All rights reserved.</p>
+        <p class="footer-tagline"><strong>Justice belongs to the people—not the privileged.</strong></p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
