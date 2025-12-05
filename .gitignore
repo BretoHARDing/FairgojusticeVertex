@@ -1,87 +1,28 @@
-# Fair Go Justice - Git Ignore
-# Excludes dependencies, build artifacts, and sensitive files
+# Sensitive files
+*.json
+*.key
+*.pem
+credentials/
+secrets/
+
+# Evidence files (keep private)
+evidence/
+case-files/
+documents/
+
+# Environment files
+.env
+.env.local
 
 # Dependencies
 node_modules/
-npm-debug.log
-yarn-error.log
+.npm/
 
-# Environment variables
-.env
-.env.local
-.env.development
-.env.production
-*.env
-
-# Build artifacts
+# Build outputs
 dist/
 build/
-.cache/
-.parcel-cache/
-
-# IDE and editor files
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
+.next/
 
 # OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-*.temp
-
-# Testing
-coverage/
-.nyc_output/
-
-# Sensitive data
-*.pem
-*.key
-*.crt
-secrets/
-credentials/
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-data/
-
-# API keys and secrets (never commit these)
-api_keys.txt
-secrets.json
-config.local.js
-
-# Uploaded files
-uploads/
-user-uploads/
-
-# Documentation build
-docs/_build/
-
-# Package locks (optional - uncomment if needed)
-# package-lock.json
-# yarn.lock
-
-# Keep these files
-!.gitkeep
-!README.md
+Thumbs.db

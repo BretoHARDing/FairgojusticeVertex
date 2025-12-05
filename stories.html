@@ -187,7 +187,7 @@
         </div>
         
         <div class="card">
-          <form id="storyForm" data-validate data-form-type="story">
+          <form id="storyForm" data-validate data-form-type="story" enctype="multipart/form-data">
             <div class="form-group">
               <label for="name" class="form-label">Your Name *</label>
               <input type="text" id="name" name="name" class="form-control" placeholder="Your full name" required>
@@ -237,6 +237,12 @@
             <div class="form-group">
               <label for="reforms" class="form-label">What Changes Would Have Helped?</label>
               <textarea id="reforms" name="reforms" class="form-control" placeholder="What reforms would have made a difference in your situation?" rows="4"></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label for="evidence" class="form-label">Supporting Evidence (Optional)</label>
+              <input type="file" id="evidence" name="evidence" class="form-control" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+              <p class="form-text">You can upload one document or image (PDF, Word, JPG, PNG). Max 10MB.</p>
             </div>
             
             <div style="background-color: var(--color-gray-100); padding: var(--space-lg); border-radius: var(--radius-md); margin-bottom: var(--space-lg);">

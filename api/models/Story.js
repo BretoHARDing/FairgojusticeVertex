@@ -75,6 +75,14 @@ const storySchema = new mongoose.Schema({
   },
   publishedAt: {
     type: Date
+  },
+  evidenceUrl: {
+    type: String,
+    trim: true
+  },
+  evidenceFilename: {
+    type: String,
+    trim: true
   }
 }, {
   timestamps: true
